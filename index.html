@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>JavaScript Quiz</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div id="quiz">
@@ -15,27 +15,41 @@
       <div class="question">
         <p>Question 1: What is the correct way to declare a variable in JavaScript?</p>
 
-        <label><input type="radio" name="question1" value="1">var myVariable = "Hello";</label>
-        <label><input type="radio" name="question1" value="2">let myVariable = "Hello";</label>
-        <label><input type="radio" name="question1" value="3">const myVariable = "Hello";</label>
+        <label><input type="radio" name="question1" value="1">var myVariable = "Hello"; (2 points)</label>
+        <label><input type="radio" name="question1" value="2">let myVariable = "Hello"; (2 points)</label>
+        <label><input type="radio" name="question1" value="3">const myVariable = "Hello"; (2 points)</label>
       </div>
 
       <div class="question">
         <p>Question 2: What is the correct way to write a comment in JavaScript?</p>
 
-        <label><input type="radio" name="question2" value="1">// This is a comment</label>
-        <label><input type="radio" name="question2" value="2">/* This is a comment */</label>
-        <label><input type="radio" name="question2" value="3">Both of the above</label>
+        <label><input type="radio" name="question2" value="1">// This is a comment (1 point)</label>
+        <label><input type="radio" name="question2" value="2">/* This is a comment */ (1 point)</label>
+        <label><input type="radio" name="question2" value="3">Both of the above (2 points)</label>
       </div>
 
-      ...
+      <div class="question">
+        <p>Question 3: What is the correct way to create an object in JavaScript?</p>
+
+        <label><input type="radio" name="question3" value="1">let myObject = new Object(); (2 points)</label>
+        <label><input type="radio" name="question3" value="2">let myObject = { name: "John", age: 30 }; (4 points)</label>
+        <label><input type="radio" name="question3" value="3">Both of the above (6 points)</label>
+      </div>
 
       <div class="question">
-        <p>Question 10: What is the correct way to use the fetch() API in JavaScript?</p>
+        <p>Question 4: What is the correct way to iterate over an array in JavaScript?</p>
 
-        <label><input type="radio" name="question10" value="1">fetch('https://example.com/api/users')
-  .then(response => response.json())
-  .then(data => console.log(data));</label>
+        <label><input type="radio" name="question4" value="1">for (String element : myArray) {} (2 points)</label>
+        <label><input type="radio" name="question4" value="2">for (int i = 0; i < myArray.length; i++) {} (2 points)</label>
+        <label><input type="radio" name="question4" value="3">Both of the above (4 points)</label>
+      </div>
+
+      <div class="question">
+        <p>Question 5: What is the correct way to read a file in JavaScript?</p>
+
+        <label><input type="radio" name="question5" value="1">BufferedReader reader = new BufferedReader(new FileReader("myfile.txt")); (1 point)</label>
+        <label><input type="radio" name="question5" value="2">Scanner scanner = new Scanner(new File("myfile.txt")); (1 point)</label>
+        <label><input type="radio" name="question5" value="3">Both of the above (2 points)</label>
       </div>
 
       <button type="submit" id="submit-button">Submit Quiz</button>
@@ -44,6 +58,7 @@
     <div id="quiz-results"></div>
   </div>
 
-  <script src="script.js"></script>
+  <script src="script.jss"></script>
 </body>
 </html>
+      
