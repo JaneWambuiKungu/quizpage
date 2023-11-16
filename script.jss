@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Calculate the percentage
     const percentage = (score / (totalQuestions * 2)) * 100;
 
-    // Display the results
+    // Display the score
     let resultMessage = "";
     if (percentage > 80) {
       resultMessage = "Congratulations! You have excellently passed.";
